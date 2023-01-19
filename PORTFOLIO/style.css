@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    a {
+    text-decoration: none;
+    }
+    
+    li {
+list-style: none;}
+
+/* NAVBAR STYLE */
+
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: rgb(109, 108, 120);
+color: #fff;
+    }
+    
+.nav-links a {
+    color: rgb(255, 255, 255);
+    }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: repeat(3,350px);
+  align-content: end;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  font-size: 150%;
+}
+
+.item1 {
+  grid-column: 1 / 5;
+  background-image: url(113713-cobalt-blue-diagonal-stripes-background-vector.jpg);
+  max-height: 200px;
+}
+
+.item2 {
+  grid-column: 1 / 3;
+  background-image: url(assets/jun-8-0619.jpg);
+  grid-row: 2 / 4;
+}
+
+.item3 {
+  grid-column: 3 / 5;
+}
